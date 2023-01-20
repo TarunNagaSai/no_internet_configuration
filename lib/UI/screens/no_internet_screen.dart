@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:no_internet_configuration/controller/internet_service.dart';
+import 'package:no_internet_configuration/controller/internet_service_controller.dart';
 
 class NoInternetScreen extends StatelessWidget {
+  /// this class has the code to display no internet screen.
   const NoInternetScreen({
     Key? key,
     required this.routeName,

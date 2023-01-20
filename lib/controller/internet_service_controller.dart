@@ -1,12 +1,10 @@
 import 'dart:async';
-import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 
 class NetworkServicesController extends GetxController {
   bool connectedToNetwork = false;
-  bool isPlatformAndroid = Platform.isAndroid;
 
   final Connectivity _connectivity = Connectivity();
   late StreamSubscription<ConnectivityResult> _connectivitySubscription;

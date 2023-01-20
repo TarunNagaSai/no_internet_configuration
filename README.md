@@ -1,16 +1,11 @@
 # no_internet_configuration
 
-A new Flutter project.
+This project is mainly about how to configure the centerlized no-internet screen with getx
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To work with this application a person need to have knowladge on GetX State management system.
 
-A few resources to get you started if this is your first Flutter project:
+-[To learn Getx](https://pub.dev/packages/get),
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+And should know how to work with [connectivity_plus](https://pub.dev/packages/connectivity_plus)

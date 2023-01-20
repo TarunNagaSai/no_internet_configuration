@@ -13,6 +13,8 @@ void main() {
       defaultTransition: Transition.native,
       opaqueRoute: Get.isOpaqueRouteDefault,
       popGesture: Get.isPopGestureEnable,
+
+      /// we are passing [GetRoutes.routes] to getPages.
       getPages: GetRoutes.routes,
       initialBinding: InitialBindings(),
     ),
